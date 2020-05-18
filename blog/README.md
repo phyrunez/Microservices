@@ -1,6 +1,6 @@
 # Blog
 
-**Service scripts**:
+### Service scripts:
 
 There are several services in the project need to run, including:
 * Posts (Port 4000)
@@ -21,7 +21,13 @@ In the each of directory, you can run:
 Runs the app in the development mode. Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits, you will also see any lint errors in the console.
 
-**Necessary frameworks and libraries**:
+With **Docker**, you can run as:
+
+`docker run {your tag}`
+
+See more commands on [Docker](https://www.docker.com/)
+
+### Necessary frameworks and libraries:
 
 In some directories, you should install:
 
