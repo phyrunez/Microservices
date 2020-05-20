@@ -12,7 +12,7 @@ All connect to:
 
 * Event Bus (Port 4005)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was also bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 In the each of directory, you can run:
 
@@ -21,13 +21,11 @@ In the each of directory, you can run:
 Runs the app in the development mode. Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits, you will also see any lint errors in the console.
 
-With **Docker**, you can run as:
+With installed **Docker**, you can run as:
 
 `docker run {your tag}`
 
-See more commands on [Docker](https://www.docker.com/)
-
-### Necessary frameworks and libraries:
+### Frameworks and tools:
 
 In some directories, you should install:
 
