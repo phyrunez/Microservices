@@ -1,7 +1,5 @@
 # Blog
 
-## Service scripts:
-
 There are several services in the project need to run, including:
 * Posts (Port 4000)
 * Comments (Port 4001)

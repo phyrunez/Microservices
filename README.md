@@ -5,13 +5,15 @@ Build, deploy, and scale an E-Commerce app using Microservices built with Node, 
 
 **Project content**:
 
-* Blog (async communication(monolith) -> {query service + event-bus}, moderation, Docker)
+* Blog (async communication(monolith) -> {query service + event-bus}, moderation)
 * ...
 
 ## Some sources and external libraries used:
 
 * [Bootstrap](https://getbootstrap.com/)
 * [dockerhub: Node.js](https://hub.docker.com/_/node)
+* [NGINX Ingress Controller](https://kubernetes.github.io/ingress-nginx/)
+* [Skaffold](https://skaffold.dev/)
 * [...](....)
 
 
@@ -32,9 +34,7 @@ Build, deploy, and scale an E-Commerce app using Microservices built with Node, 
     * Load Balancer: makes a pod accessible from **outside the cluster**, right way to expose a pod to the outside world, need an **Ingress(Ingress Controller)**, a pod with a set of routing rules to distribute traffic to other services.
     * External Name: redirects an in-cluster request to a CNAME url.
 
-<div style="text-align:center">
-<img src="https://github.com/victorchennn/Microservices/blob/master/diagram.png" width="300" height="300">
-</div>
+<img src="https://github.com/victorchennn/Microservices/blob/master/diagram.png" width="400" height="350">
 
 ## Docker Commands
 
@@ -93,6 +93,11 @@ Some essential **Pod** commands:
 >```
 >
 > And make sure the deployment must be using the *`latest`* tag in the pod spec section.
+>
+> Or using **Skaffold**, see `skaffold.yaml` and run
+>```bash
+>$ skaffold dev
+>```
 
 **Service** commands:
 * `kubectl get services` -> list all the running services
