@@ -19,6 +19,8 @@ Build, deploy, and scale an E-Commerce app using Microservices built with Node, 
 
 - [Postman](https://www.postman.com)
 - [Google Cloud](https://cloud.google.com)
+- [BASE64 Decode and Encode](https://www.base64decode.org/)
+- [JSON Web Tokens](https://jwt.io/)
 
 ## Important terminology
 
@@ -104,3 +106,8 @@ Some essential **Pod** commands:
 
 - `kubectl get services` -> list all the running services
 - `kubectl describe service {service name}` -> print out some info about a specific service
+
+**Secret** commands
+
+- `kubectl get secrets` -> list all the secrets
+- `kubectl create secret generic {secret name} --from-literal={key}={value}` -> crete a generic secert with key-value pair
