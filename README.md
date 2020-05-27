@@ -5,8 +5,8 @@ Build, deploy, and scale an E-Commerce app using Microservices built with Node, 
 
 **Project content**:
 
-- Blog (async communication(monolith) -> {query service + event-bus}, moderation)
-- Ticketing (...)
+- Blog
+- Ticketing
 
 ## Some sources and external libraries used:
 
@@ -14,6 +14,8 @@ Build, deploy, and scale an E-Commerce app using Microservices built with Node, 
 - [dockerhub: Node.js](https://hub.docker.com/_/node)
 - [NGINX Ingress Controller](https://kubernetes.github.io/ingress-nginx/)
 - [Skaffold](https://skaffold.dev/)
+- [MongoDB](https://www.mongodb.com)
+- [Next.js](https://nextjs.org)
 
 ## Optional sources and tools used:
 
@@ -105,9 +107,14 @@ Some essential **Pod** commands:
 **Service** commands:
 
 - `kubectl get services` -> list all the running services
+- `kubectl get services -n {namespace}` -> list all the running services in the namespace
 - `kubectl describe service {service name}` -> print out some info about a specific service
 
 **Secret** commands
 
 - `kubectl get secrets` -> list all the secrets
 - `kubectl create secret generic {secret name} --from-literal={key}={value}` -> crete a generic secert with key-value pair
+
+**Namespace** commands
+
+- `kubectl get namespace` -> list all the namespace
