@@ -1,7 +1,7 @@
 # Microservices
 
 This project is the source code of the Udemy course [Microservices with Node JS and React](https://www.udemy.com/course/microservices-with-node-js-and-react/).
-Build, deploy, and scale an E-Commerce app using Microservices built with Node, React, Docker and Kubernetes.
+Build, deploy, and scale an E-Commerce app using Microservices built with Node.js, React, Docker and Kubernetes.
 
 **Project content**:
 
@@ -122,7 +122,7 @@ In general Docker is about running **individual** containers, kubernetes is abou
 
 ## NPM Commands
 
-In the **ticketing**, it needs to publish shared common libraries to NPM organization, here are some essential commands:
+In the [**Ticketing**](https://github.com/victorchennn/Microservices/tree/master/ticketing), it uses **npm Org** to store shared common libraries. Here are some essential commands:
 
 - `npm version patch` -> add a new version
 - `npm publish` -> publish the package

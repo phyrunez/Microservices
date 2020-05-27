@@ -1,5 +1,5 @@
 {
-  "name": "@rina-victor/common",
+  "name": "@vcticketing/common",
   "version": "1.0.3",
   "description": "",
   "main": "./build/index.js",
