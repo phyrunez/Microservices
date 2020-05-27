@@ -16,6 +16,7 @@ Build, deploy, and scale an E-Commerce app using Microservices built with Node, 
 - [Skaffold](https://skaffold.dev/)
 - [MongoDB](https://www.mongodb.com)
 - [Next.js](https://nextjs.org)
+- [npm Orgs](https://docs.npmjs.com/orgs/)
 
 ## Optional sources and tools used:
 
@@ -72,7 +73,7 @@ See more commands on [Docker command-line reference](https://docs.docker.com/eng
 
 In general Docker is about running **individual** containers, kubernetes is about running **a bunch of** containers together.
 
-Some essential **Pod** commands:
+**Pod** commands:
 
 - `kubectl apply -f {config file name.yaml}` -> create a pod out of a config file
 - `kubectl get pods` -> list all the running pods
@@ -118,3 +119,12 @@ Some essential **Pod** commands:
 **Namespace** commands
 
 - `kubectl get namespace` -> list all the namespace
+
+## NPM Commands
+
+In the **ticketing**, it needs to publish shared common libraries to NPM organization, here are some essential commands:
+
+- `npm version patch` -> add a new version
+- `npm publish` -> publish the package
+- `npm publish --access public` -> publish the package to public registry
+- `npm update {organization}` -> update npm package
