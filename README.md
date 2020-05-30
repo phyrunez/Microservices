@@ -17,6 +17,7 @@ Build, deploy, and scale an E-Commerce app using Microservices built with Node.j
 - [MongoDB](https://www.mongodb.com)
 - [Next.js](https://nextjs.org)
 - [npm Orgs](https://docs.npmjs.com/orgs/)
+- [NATS Streaming](https://docs.nats.io/nats-streaming-concepts/intro)
 
 ## Optional sources and tools used:
 
@@ -81,6 +82,7 @@ In general Docker is about running **individual** containers, kubernetes is abou
 - `kubectl logs {pod name}` -> print out logs from the given pod
 - `kubectl delete pod {pod name}` -> deletes the given pod
 - `kubectl describe pod {pod name}` -> print out some info about a specific pod
+- `kubectl port-forward {pod name} {local port:port in the pod}` -> forward port to get connected
 
 **Deployment** commands:
 
