@@ -55,3 +55,9 @@ A multi-service application. Details are listed below:
 > <p align="center">
 >   <img src="https://github.com/victorchennn/Microservices/blob/master/ticketing/diagram.png" width="700" height="350">
 > </p>
+> -------------
+> <p align="center">
+>   <img src="https://github.com/victorchennn/Microservices/blob/master/ticketing/component.png" width="700" height="350">
+> </p>
+
+
