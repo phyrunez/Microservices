@@ -15,9 +15,10 @@ Build, deploy, and scale an E-Commerce app using Microservices built with Node.j
 - [NGINX Ingress Controller](https://kubernetes.github.io/ingress-nginx/)
 - [Skaffold](https://skaffold.dev/)
 - [MongoDB](https://www.mongodb.com)
-- [Next.js](https://nextjs.org)
 - [npm Orgs](https://docs.npmjs.com/orgs/)
 - [NATS Streaming](https://docs.nats.io/nats-streaming-concepts/intro)
+- [Redis](https://redis.io)
+- [Stripe](https://stripe.com/)
 
 ## Optional sources and tools used:
 
@@ -116,7 +117,7 @@ In general Docker is about running **individual** containers, kubernetes is abou
 **Secret** commands
 
 - `kubectl get secrets` -> list all the secrets
-- `kubectl create secret generic {secret name} --from-literal={key}={value}` -> crete a generic secert with key-value pair
+- `kubectl create secret generic {secret name} --from-literal {key}={value}` -> crete a generic secert with key-value pair
 
 **Namespace** commands
 
